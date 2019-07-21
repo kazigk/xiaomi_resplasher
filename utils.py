@@ -1,6 +1,4 @@
-import binascii
-
-bmp_header = binascii.unhexlify("424D")
+bmp_header = b'BM'
 
 # all above this is considered as invalid bitmap
 # i'm just too lazy to do it "the right way"
